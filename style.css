@@ -1,0 +1,135 @@
+body {
+  background: rgb(213, 248, 220);
+  
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+input, button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.main-div {
+  width: 20%;
+  margin: 0px auto;
+  margin-top: 70px;
+  padding: 20px;
+  display: none;
+}
+.loggedin-div{
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 70px;
+  padding: 20px;
+  display: none;
+  background-color: rgb(252, 226, 226);
+}
+
+.main-div input {
+  display: block;
+  border: 1px solid rgb(173, 236, 186);
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div input:focus {
+  border: 1px solid rgb(5, 161, 31);
+}
+
+.main-div button {
+  background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.3s;
+}
+
+.main-div button:hover, .loggedin-div button:hover {
+  background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+tbody{
+  background-color: rgb(255, 243, 243);
+  padding: 10px;
+}
+table th{
+  background-color: rgb(253, 191, 191);
+  padding: 8px;
+}
+table td{
+  padding: 5px;
+}
+
+#remove{
+  border: rgb(78, 78, 194) solid 1px;
+  
+  border-radius: 1%;
+  width: 28%;
+  height:200px;
+  margin: auto;
+  background-color: rgb(234, 234, 255);
+  
+}
+
+#remove button{
+    width: 30%;
+    margin-left: 116px;
+    margin-top: 20px;
+    background-color: rgb(106, 106, 252); 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+}
+
+#remove input{
+  margin-left: 86px;
+}
+
+
+.signoutBtn{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:rgb(70, 95, 236);
+  text-align:center;
+  transition: all 0.2s;
+  background-color: rgb(227, 227, 252);
+  float: right;
+  }
+  
+  
+
